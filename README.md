@@ -9,11 +9,12 @@ I based my configuration on marlin 1.1.9 and thisiskeithb Ender 3 Configuration.
 * Enabled LEVEL_BED_CORNERS - the ability to manually level the bed with bed screws - this just moves the nozzle.
 * Enabled LCD_BED_LEVELING - Allows above leveling methods to be operated from the LCD
 * Changed mesh grid from 3*3 to 5*5
-* Enabled SLIM_LCD_MENUS - To allow all above features to fit in the flash chip - this items will
- not be available through the LCD menu: * Feedrate &raquo; | Feedrate settings |
- * Acceleration &raquo; | Acceleration settings |
- * Jerk &raquo; | Jerk settings |
- * Steps/mm &raquo; | Steps/mm for XYZ axes and extruders
+* Enabled SLIM_LCD_MENUS - To allow all above features to fit in the flash chip - this items will not be available through the LCD menu: 
+  
+  - Feedrate &raquo; | Feedrate settings |
+  - Acceleration &raquo; | Acceleration settings |
+  - Jerk &raquo; | Jerk settings |
+  - Steps/mm &raquo; | Steps/mm for XYZ axes and extruders
 * Added compiled version to use with avrdude
 
 # Marlin 3D Printer Firmware
@@ -40,7 +41,7 @@ Previous releases of Marlin include [1.0.2-2](https://github.com/MarlinFirmware/
 ## Contributing to Marlin
 
 If you have coding or writing skills you're encouraged to contribute to Marlin. You may also contribute suggestions, feature requests, and bug reports through the Marlin Issue Queue.
-
+ 
 Before contributing, please read our [Contributing Guidelines](https://github.com/MarlinFirmware/Marlin/blob/1.1.x/.github/contributing.md) and [Code of Conduct](https://github.com/MarlinFirmware/Marlin/blob/1.1.x/.github/code_of_conduct.md).
 
 ## Marlin Resources
