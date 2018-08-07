@@ -1,3 +1,21 @@
+<strong>This is my Creality ENDER-3 configured marlin firmware.</strong>
+I based my configuration on marlin 1.1.9 and thisiskeithb Ender 3 Configuration.
+
+
+<strong><u>v0.1</u></strong>
+* Disabled custom status screen and boot logo to save space
+* Enabled PROBE_MANUALLY - Adds the ability manually level the bed by setting Z height.
+* Enabled MESH_BED_LEVELING -Enable mesh grid bed leveling
+* Enabled LEVEL_BED_CORNERS - the ability to manually level the bed with bed screws - this just moves the nozzle.
+* Enabled LCD_BED_LEVELING - Allows above leveling methods to be operated from the LCD
+* Changed mesh grid from 3*3 to 5*5
+* Enabled SLIM_LCD_MENUS - To allow all above features to fit in the flash chip - this items will
+ not be available through the LCD menu: * Feedrate &raquo; | Feedrate settings |
+ * Acceleration &raquo; | Acceleration settings |
+ * Jerk &raquo; | Jerk settings |
+ * Steps/mm &raquo; | Steps/mm for XYZ axes and extruders
+* Added compiled version to use with avrdude
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
