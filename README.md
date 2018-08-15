@@ -3,6 +3,7 @@ I based my configuration on marlin 1.1.9 and thisiskeithb Ender 3 Configuration.
 
 
 <strong><u>v0.1</u></strong>
+* SD card is working. 
 * Disabled custom status screen and boot logo to save space
 * Enabled PROBE_MANUALLY - Adds the ability manually level the bed by setting Z height.
 * Enabled MESH_BED_LEVELING -Enable mesh grid bed leveling
